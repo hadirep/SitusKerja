@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Situs Kerja</string>
+    <string name="situs_name">nama situs: </string>
+    <string name="domain_name">domain:</string>
+    <string name="about_situs">deskripsi: </string>
+    <string name="about">About</string>
+    <string name="email">Hadiesarahma@gmail.com</string>
+    <string name="name">Hadi Rahmah Esa Putra</string>
+</resources>

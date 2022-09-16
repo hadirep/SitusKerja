@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <ImageView
+            android:id="@+id/iv_situsPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/glints"
+            android:contentDescription="Animal Detail" />
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="0,1" >
+            <TableRow android:layout_width="fill_parent">
+            <TextView
+                    android:id="@+id/tv_situsName"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:text="@string/situs_name"
+                    android:textSize="25dp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+            </TableRow>
+        </TableLayout>
+        <TextView
+            android:id="@+id/tv_domainName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="15dp"
+            android:textColor="@color/white"
+            android:text="@string/domain_name"/>
+        <TextView
+            android:id="@+id/tv_situsAbout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="15dp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="20dp"
+            android:text="@string/about_situs"/>
+    </LinearLayout>
+</ScrollView>
